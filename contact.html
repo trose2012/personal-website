@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" href="theo.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    
+    <!-- External Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Optional: Internal fallback if styles.css is missing -->
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .email {
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 1.25rem;
+            color: #007bff;
+        }
+
+        .email:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1 style=" text-align: center; font-family: 'Quicksand', sans-serif;">Contact</h1>
-    <a style=" text-align: center; font-family: 'Quicksand', sans-serif;" class = "email" href="mailto:theo.c.rose@gmail.com">Email</a>
+    <main>
+        <h1>Contact</h1>
+        <a class="email" href="mailto:theo.c.rose@gmail.com">Email</a>
+    </main>
 </body>
 </html>
